@@ -14,7 +14,13 @@ body {
 .btn-primary.btn-lg.btn-block {
 	background-color: transparent;
 	background-repeat: no-repeat;
-	border-width: 
+	border: 2px solid white;
+	width: 40%;
+	margin: 15px;
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
