@@ -1,0 +1,1 @@
+# spoileralert_template
