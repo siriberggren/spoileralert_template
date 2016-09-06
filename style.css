@@ -6,25 +6,76 @@ body {
     background-attachment: fixed;
 }
 
-.homepageheader {
+.homepageheading {
 	font-family: 'Abril Fatface', cursive;
 	text-align: center;
 	color: white;
+	padding: 2em
 }
 
-.btn-primary.btn-lg.btn-block {
-	background-color: transparent;
-	background-repeat: no-repeat;
-	border: 2px solid white;
-	width: 40%;
+.moviequiz {
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
+	color: white;
+	padding: 0.5em
+}
+
+.startbutton {
+	border-color: white;
+	background: transparent;
 	margin: 15px;
-	position: relative;
+	width: 400px;
+	height: 120px;
+	position: center;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: 'helvetica'
-
+	padding: 1.5em;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 30pt;
 }
+
+.moviequestion {
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
+	color: white;
+	padding: 2em
+}
+
+
+.btn.btn-primary.btn-lg.btn-block.movie-quiz {
+	border: none;
+	width: 500px;
+	height: 120px;
+	margin: 15px;
+	position: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em;
+	background-image: url(http://assets.uxbooth.com/uploads/2012/07/fightclub.jpg);
+	background-size: 100%;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20pt;
+}
+
+
+.btn.btn-primary.btn-lg.btn-block.tv-quiz {
+	border: none;
+	width: 500px;
+	height: 120px;
+	margin: 15px;
+	position: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em;
+	background-image: url(http://acrossthemargin.com/wp-content/uploads/2015/09/Mad-Men1-1170x658.jpg);
+	background-size: 100%;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20pt;
+}
+
 
 
 .gradient {
@@ -50,9 +101,22 @@ background-image: linear-gradient(to bottom, #67D9F0 0%, #7DFFBE 100%);
  
 .logo {
 	font-family: 'Permanent Marker', cursive;
-	font-size: 64pt;
+	font-size: 68pt;
 	text-align: center;
 	color: white;
+	padding: 0.5em;
 }
 
-	
+.logo.smaller {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50pt;
+	text-align: center;
+	color: white;
+	padding: 1em;
+}
+
+.line-separator {
+	height: 1px
+	background: white;
+	border-bottom: 1px solid #313030;
+}
