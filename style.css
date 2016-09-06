@@ -7,8 +7,9 @@ body {
 }
 
 .homepageheader {
-	font: 20pt "Helvetica Neue", "Helvetica", serif;
+	font-family: 'Abril Fatface', cursive;
 	text-align: center;
+	color: white;
 }
 
 .btn-primary.btn-lg.btn-block {
@@ -21,29 +22,37 @@ body {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: 'helvetica'
+
 }
 
 
 .gradient {
 background-size: cover;
     /* IE10+ */ 
-background-image: -ms-linear-gradient(top, #70E7FF 0%, #7DFFBE 100%);
+background-image: -ms-linear-gradient(top, #67D9F0 0%, #7DFFBE 100%);
 
 /* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top, #70E7FF 0%, #7DFFBE 100%);
+background-image: -moz-linear-gradient(top, #67D9F0 0%, #7DFFBE 100%);
 
 /* Opera */ 
-background-image: -o-linear-gradient(top, #70E7FF 0%, #7DFFBE 100%);
+background-image: -o-linear-gradient(top, #67D9F0 0%, #7DFFBE 100%);
 
 /* Webkit (Safari/Chrome 10) */ 
 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #70E7FF), color-stop(100, #7DFFBE));
 
 /* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top, #70E7FF 0%, #7DFFBE 100%);
+background-image: -webkit-linear-gradient(top, #67D9F0 0%, #7DFFBE 100%);
 
 /* W3C Markup */ 
-background-image: linear-gradient(to bottom, #70E7FF 0%, #7DFFBE 100%);
+background-image: linear-gradient(to bottom, #67D9F0 0%, #7DFFBE 100%);
 }
  
+.logo {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 64pt;
+	text-align: center;
+	color: white;
+}
 
 	
