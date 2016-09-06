@@ -10,7 +10,8 @@ body {
 	font-family: 'Abril Fatface', cursive;
 	text-align: center;
 	color: white;
-	padding-bottom: 0.5em
+	padding-bottom: 0.5em;
+	font-size: 28pt;
 }
 
 .footer {
@@ -30,25 +31,26 @@ body {
 	padding: 0.5em
 }
 
-.startbutton {
-	border-color: white;
-	background: transparent;
+.btn.btn-primary.btn-lg.btn-block.startbutton {
 	margin: 15px;
-	width: 400px;
-	height: 120px;
-	position: center;
+	width: 200px;
+	height: 70px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 1.5em;
 	font-family: 'Abril Fatface', cursive;
-	font-size: 30pt;
+	font-size: 20pt;
+	font-color: white;
+	background-color: transparent;
+	border: 2px solid white;
 }
+
 
 .moviequestion {
 	font-family: 'Abril Fatface', cursive;
 	text-align: center;
 	color: white;
+	padding-bottom: 0.5em;
 }
 
 .container-fluid.alternatives-answers {
@@ -104,21 +106,15 @@ body {
 	margin: 0px 0px 0px 0px;
 }
 
-.skip2{
+.skip2 {
 	font-family: 'Abril Fatface', cursive;
 	text-align: center;
 	color: white;
 	padding-bottom: 1em;
 	font-size: 12pt;
-	border-bottom: 3px solid #00ffb4;
+	border-bottom: 2px solid white;
 	text-align: center;
-	margin-bottom: 0px
-}
-	
-.a {
-    color: #333;
-    transition: border .1s ease-out,color .1s ease-out,background .1s ease-out;
-    cursor: pointer;
+	padding-bottom: 1px;
 }
 
 .alternativanswers {
@@ -148,10 +144,20 @@ body {
 	background-image: url(http://assets.uxbooth.com/uploads/2012/07/fightclub.jpg);
 	background-size: 100%;
 	font-family: 'Abril Fatface', cursive;
-	font-size: 20pt;
+	font-size: 24pt;
+	border: 1px solid white;
 
 }
 
+.movie-button-text {
+	color: white;
+	text-shadow: 1px 1px darkgrey;
+}
+
+.tv-button-text {
+	color: white;
+	text-shadow: 1px 1px #605d5d;
+}
 
 .btn.btn-primary.btn-lg.btn-block.tv-quiz {
 	border: none;
@@ -165,7 +171,8 @@ body {
 	background-image: url(http://acrossthemargin.com/wp-content/uploads/2015/09/Mad-Men1-1170x658.jpg);
 	background-size: 100%;
 	font-family: 'Abril Fatface', cursive;
-	font-size: 20pt;
+	font-size: 24pt;
+	border: 1px solid white;
 }
 
 
