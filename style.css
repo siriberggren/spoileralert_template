@@ -36,6 +36,7 @@ body {
 	text-align: center;
 	color: white;
 	font-size: 14pt;
+	padding-bottom: 1.5em;
 }
 
 .btn.btn-primary.btn-lg.btn-block.startbutton {
@@ -50,6 +51,12 @@ body {
 	font-color: white;
 	background-color: transparent;
 	border: 2px solid white;
+
+}
+
+.btn.btn-primary.btn-lg.btn-block.startbutton:hover {
+	background-color: white;
+	color: #70E5AB;
 }
 
 
@@ -73,8 +80,13 @@ body {
 	margin: 0px 60px 0px 60px;
 }
 
+.btn.btn-primary.btn-lg.btn-block.answer:hover {
+	background-color: white;
+	color: #70E5AB;
+}
+
 .btn.btn-primary.btn-lg.btn-block.answer {
-	border-color: white;
+	border: 1px solid white;
 	background: transparent;
 	margin: 5px;
 	width: 170px;
@@ -152,18 +164,15 @@ body {
 	background-size: 100%;
 	font-family: 'Abril Fatface', cursive;
 	font-size: 24pt;
-	border: 1px solid white;
 
 }
 
 .movie-button-text {
 	color: white;
-	text-shadow: 1px 1px darkgrey;
 }
 
 .tv-button-text {
 	color: white;
-	text-shadow: 1px 1px #605d5d;
 }
 
 .btn.btn-primary.btn-lg.btn-block.tv-quiz {
@@ -175,13 +184,15 @@ body {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url(http://acrossthemargin.com/wp-content/uploads/2015/09/Mad-Men1-1170x658.jpg);
-	background-size: 100%;
+	background-image: url(http://tribzap2it.files.wordpress.com/2014/01/house-of-cards-season-2-trailer.jpg);
+	background-size: 70%;
 	font-family: 'Abril Fatface', cursive;
 	font-size: 24pt;
-	border: 1px solid white;
 }
 
+.picktv {
+	filter: grayscale(100%);
+}
 
 
 .gradient {
